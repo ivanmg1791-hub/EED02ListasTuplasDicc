@@ -119,3 +119,10 @@ print("listaNum8:", listaNum8)
 #Las listas pueden tener elementos de distinto tipo
 listaNum10=[125, 'A', 2.3, True, [1, 2, 3]]
 print("listaNum10:", listaNum10)
+
+
+
+L0= [[1, 2, 3], ['A', 'B', 'C']]
+#A partir de L0 Obtener L1= [[1, 2, 3, 3, 2, 1], ['A', 'B', 'C', 'C', 'B', 'A']]
+L1 = [L0[0]+L0[0][::-1], L0[1]+L0[1][::-1]]
+print("L1:", L1)
